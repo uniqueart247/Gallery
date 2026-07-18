@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UniqueArts247 Gallery</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -54,9 +53,6 @@
 <footer>
     <p>© 2026 UniqueArts247. All rights reserved.</p>
 </footer>
-
-
-<script src="script.js"></script>
 
 </body>
 </html>
