@@ -1,0 +1,145 @@
+/* UniqueArts247 Gallery - Main Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background: #111;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background: #000;
+    padding: 25px 10%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #ccc;
+    margin-top: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+.hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 10%;
+    background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.8)
+    );
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin-top: 15px;
+    color: #ddd;
+}
+
+.gallery {
+    padding: 50px 10%;
+}
+
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+.about {
+    padding: 50px 10%;
+    text-align: center;
+    background: #1a1a1a;
+}
+
+.contact {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+button {
+    background: #d4af37;
+    color: #000;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #fff;
+}
+
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+    margin-top: 30px;
+}
+
+/* Mobile design */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+}
